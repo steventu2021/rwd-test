@@ -1,0 +1,613 @@
+/* header starts here */
+.header {
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #526D82;
+    background-color: #DDE6ED;
+}
+.header .container{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    background-color: #526D82;
+    color: #DDE6ED;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.nav-link li a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: #526D82;
+}
+
+
+/* banner starts here */
+
+#banner {
+    width: 100%;
+    height: 100%;
+    background-color: #526D82;
+}
+
+.slogan {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 100px 0;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 500px;
+    letter-spacing: 0.2rem;
+    padding: 10px 0px;
+    color: #DDE6ED;
+}
+
+h6 {
+    font-size: 36px;
+    font-weight: 500px;
+    letter-spacing: 0.2rem;
+    color:#DDE6ED
+}
+/* about starts here */
+h2{
+    font-size: 28px;
+    margin: 20px 0;
+    letter-spacing: 0.1rem;
+    color:#DDE6ED
+}
+
+h3{
+    font-size: 22px;
+    margin: 20px 0;
+    letter-spacing: 0.1rem;
+}
+
+h4{
+    background-color: #DDE6ED;
+    color: #526D82;
+    padding: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.profile p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.8rem;
+}
+
+.skill-list li{
+    margin-bottom: 10px;
+}
+#about{
+    width: 100%;
+    background-color: #526D82;
+}
+
+#about .about-container{
+    width: 80%;
+    margin: auto;
+    color: #DDE6ED;
+    padding: 20px;
+}
+.my-photo{
+    width: 100%;
+}
+.my-photo img{
+    max-width: 100%;
+    width: 100%;
+    box-shadow: -10px 10px 0px #9DB2BF;
+
+}
+.description{
+    padding: 20px 0;
+    
+}
+
+.education-list li p{
+    background-color: #DDE6ED;
+    color: #526D82;
+    line-height: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+/* skill bar starts here */
+
+.skill-list li{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.skill-name {
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    width: 30%;
+}
+
+.skill-bar{
+    width:68%;
+    display:inline-block;
+    height:22px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #333 inset;
+
+}
+/* 設定各項目的顏色與動畫 */
+.skill-html{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 90%;
+    background: linear-gradient(to right, #526d82, #738a9c, #96a8b6, #b9c6d1, #dde6ed);
+    animation-name: html;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes html {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 90%;
+    }
+    
+}
+
+.skill-css{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 80%;
+    background: linear-gradient(to right, #526d82, #738a9c, #96a8b6, #b9c6d1, #dde6ed);
+    animation-name: css;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+
+
+}
+
+@keyframes css {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 80%;
+    }
+    
+}
+.skill-js{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 70%;
+    background: linear-gradient(to right, #526d82, #738a9c, #96a8b6, #b9c6d1, #dde6ed);
+    animation-name: js;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+
+
+}
+
+@keyframes js {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 70%;
+    }
+    
+}
+.skill-php{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 60%;
+    background: linear-gradient(to right, #526d82, #738a9c, #96a8b6, #b9c6d1, #dde6ed);
+    animation-name: php;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+@keyframes php {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 60%;
+    }
+    
+}
+.skill-mysql{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 50%;
+    background: linear-gradient(to right, #526d82, #738a9c, #96a8b6, #b9c6d1, #dde6ed);
+    animation-name: mysql;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+@keyframes mysql {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 50%;
+    }
+    
+}
+/* experience starts here */
+#experience{
+    width: 100%;
+    height: 200px;
+    background-color: #526d82;
+    padding: 20px 0;
+    
+}
+.company-logo img{
+    width: 60px;
+    
+}
+.exp-container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.work-experience-list li{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 30px auto;
+    border-bottom: 1px dashed #DDE6ED;
+    color: #DDE6ED;
+    line-height: 30px;
+}
+
+.work-period, .company-logo, .job-title{
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+/* portfolio starts here */
+
+#portfolio {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.portfolio-title{
+    width: 85%;
+    margin:20px auto;
+
+}
+#portfolio .portfolio-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    width: 48%;
+    height: 200px;
+    max-height: 100%;
+}
+.card:nth-child(6) {
+    height: auto;
+}
+
+
+.card {
+    position: relative;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+.side {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.5s;
+}
+
+.side img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+
+.back {
+    display: flex;
+    background: #DDE6ED;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    transform: rotateY(180deg);
+    transition: transform 0.5s;
+}
+
+.card:hover .side {
+    transform: rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: rotateY(0deg);
+}
+
+
+/* contact starts here */
+
+#contact {
+    width: 100%;
+    background-image: #526d82
+}
+.contact-container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    color: #DDE6ED;
+}
+
+
+.info{
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.info ul i{
+    padding-right: 10px;
+}
+
+/* form starts here */
+.form {
+    width: 90%;
+    height: 50%;
+    background-color:#9DB2BF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+}
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    width: 100%;
+    padding: 10px 0px 10px 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="tel"]:focus,
+form textarea:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+form button[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+form button[type="submit"] {
+    background: #526D82;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    background-size: 200% auto;
+}
+
+/* .icon-list{
+    
+} */
+
+
+/* Media Query電腦樣式 */
+
+@media screen and (min-width:481px) {
+
+   
+    .header .container{
+        width: 80%;
+        height: 50px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-link li a{
+        padding-left: 20px;
+    }
+    .slogan {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto
+    }
+
+    #about .about-container{
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        margin: 0px auto;
+    }
+    h2{
+        font-size: 28px;
+        margin: 0;
+        color: #DDE6ED ;
+    }
+
+    .my-photo{
+        width: 35%;
+    }
+    .my-photo img{
+        max-width: 100%;
+        width: 100%;
+    
+    }
+    .description{
+        width:30%;
+        height: 100%;
+        padding: 20px 60px;
+        /* background-color:  */
+        
+    /* experience starts here */
+    
+}
+
+    .exp-container{
+        width: 60%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .work-period, .company-logo, .job-title{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    #experience{
+        width: 100%;
+        height: 300px;
+        background-color: #526d82;
+    }
+    .exp-container{
+        height: 100%;
+    }
+
+    .company-logo img{
+        width: 100px;
+        
+    }
+    #portfolio .portfolio-container{
+        width: 80%;
+        margin: 20px auto;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 10px;
+
+    }
+    .card {
+        width: 100%;
+        height: 400px;
+        max-height: 100%;
+    }
+
+    .card:nth-child(2) {
+        grid-area: 1 / 3 / 1 / 5;
+    }
+    .card:nth-child(5) {
+        grid-area: 2 / 2 / 2 / 4;
+    }
+    .card:nth-child(1) {
+        grid-area: 1 / 1 / 2 / 3;
+    }
+
+    .portfolio-title{
+        width: 60%;
+        margin:20px auto;
+}
+    .contact-container{
+        width: 60%;
+        margin:20px auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+
+        color: #DDE6ED;
+}
+    .form {
+        width: 45%;
+}
+    .info{
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 50px;
+
+    }
+}
